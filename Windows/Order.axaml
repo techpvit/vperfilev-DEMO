@@ -1,0 +1,20 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1200" d:DesignHeight="450"
+        x:Class="demo1.Order"
+        Title="Order">
+  <Grid ColumnDefinitions="230,*,50" RowDefinitions="80,*" ShowGridLines="True">
+	  <TextBlock Text="ORDERS" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" FontWeight="Bold"/>
+      <StackPanel Grid.Column="0" Grid.Row="1" Margin="30 30 0 0">
+          <ComboBox Name="tovars" Grid.Column="1" Width="200" Grid.Row="1"></ComboBox>
+          <TextBlock Text="kolichestvo" Margin="0 10" FontSize="16"/>
+          <TextBox Name="kolvo" Width="200" HorizontalAlignment="Left"/>
+          <Button Click="Button_Add_InCart" Margin="0 20" Width="100" Height="40" HorizontalAlignment="Center">
+			  <TextBlock Text="ADD" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" FontWeight="DemiBold"/>
+          </Button>
+      </StackPanel> 
+      <ListBox Grid.Column="1" Grid.Row="1" Margin="30" Name="Cart"/>
+  </Grid>
+</Window>

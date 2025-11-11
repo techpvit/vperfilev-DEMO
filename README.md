@@ -51,4 +51,5 @@ ERD (Entity Relationship Diagram, ER-диаграмма)
 
 <img width="1421" height="740" alt="image" src="https://github.com/user-attachments/assets/4c00f510-9e61-4376-bee5-e11f177510b4" />
 
+Комиты от пользователя - Dasha06 NelaSnows (случайно была учетка в os).
 
